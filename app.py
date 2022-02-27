@@ -58,9 +58,7 @@ if option == 'Home':
         unsafe_allow_html=True
     )
     # st.title('Omdena - Hamburg, Germany Chapter')
-    html_temp = """
-    <h2 style="color:white;text-align:center;">Omdena - Hamburg, Germany Chapter</h2>
-    """
+    
     # st.header('Feasibility and ROI Analysis for Renewable Resources Infrastructure using Computer Vision')
     st.text("")
     st.text("")
