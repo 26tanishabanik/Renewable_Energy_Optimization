@@ -1,3 +1,5 @@
 streamlit
 numpy
 Pillow==9.0.1
+pandas>=1.2.2
+python-dateutil==2.7.3

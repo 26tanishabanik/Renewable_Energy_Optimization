@@ -16,7 +16,7 @@ option = st.sidebar.radio(" ",("Home", "About", "Features", "Select AOI Data Par
 if option == 'Home':
     col1,col2,col3 = st.columns([50,100,1])
     
-    col2.image('chapter_logo.png')
+    # col2.image('chapter_logo.png')
     st.markdown(
         """
         <style>
@@ -58,13 +58,13 @@ if option == 'Home':
         unsafe_allow_html=True
     )
     st.title('Omdena - Hamburg, Germany Chapter')
-    st.header('Feasibility and ROI Analysis for Renewable Resources Infrastructure using Computer Vision')
+    # st.header('Feasibility and ROI Analysis for Renewable Resources Infrastructure using Computer Vision')
     st.text("")
     st.text("")
     st.text("")
     html_temp = """
     <div style="background-color:blue;padding:10px">
-    <h2 style="color:white;text-align:center;">Improve sorting and segregation of waste using machine learning</h2>
+    <h2 style="color:white;text-align:center;">Feasibility and ROI Analysis for Renewable Resources Infrastructure using Computer Vision</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
