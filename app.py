@@ -58,7 +58,7 @@ if option == 'Home':
         unsafe_allow_html=True
     )
     # st.title('Omdena - Hamburg, Germany Chapter')
-    
+     st.markdown("<h1 style='text-align: center; color: white;'>Omdena - Hamburg, Germany Chapter</h1>", unsafe_allow_html=True)
     # st.header('Feasibility and ROI Analysis for Renewable Resources Infrastructure using Computer Vision')
     st.text("")
     st.text("")
