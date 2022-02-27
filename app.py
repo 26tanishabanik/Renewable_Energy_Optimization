@@ -235,8 +235,8 @@ elif option == 'Team':
         }
         .navneet-img {
              float:right;
-             width:175px;
-             height:192px;
+             width:170px;
+             height:180px;
              margin: 0px 0px 0px 28px;
         }
         
