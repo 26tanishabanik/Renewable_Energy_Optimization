@@ -221,7 +221,7 @@ elif option == 'Conclusion':
 
 
 elif option == 'Team':
-      rebecca_IMAGE = "Contributors/navneet.jpeg"
+      navneet_IMAGE = "Contributors/navneet.jpeg"
       html_temp = """
             <div style="background-color:blue;padding:10px">
             <h2 style="color:white;text-align:center;">Team</h2>
@@ -235,8 +235,8 @@ elif option == 'Team':
         }
         .navneet-img {
              float:right;
-             width:170px;
-             height:180px;
+             width:175px;
+             height:192px;
              margin: 0px 0px 0px 28px;
         }
         
@@ -250,7 +250,7 @@ elif option == 'Team':
       st.markdown(
             f"""
             <div class="container">
-                  <img class="rebecca-img" src="data:image/png;base64,{base64.b64encode(open(rebecca_IMAGE, "rb").read()).decode()}">
+                  <img class="navneet-img" src="data:image/png;base64,{base64.b64encode(open(navneet_IMAGE, "rb").read()).decode()}">
             </div>
             """,
             unsafe_allow_html=True
